@@ -1,0 +1,63 @@
+html {
+  zoom: 100%;
+}
+
+body {
+  background-image: url("pink wall.jpg");
+  background-size: cover;
+}
+header {
+  text-align: center;
+}
+
+.contact {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: end;
+  color: aliceblue;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 0.2rem;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: rgb(247, 178, 189);
+}
+
+li {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  display: inline;
+  justify-content: space-evenly;
+  margin: 15rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+table {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#detail {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.5rem;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+img {
+  box-shadow: 1rem 0.5rem 0.5rem pink;
+}
